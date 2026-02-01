@@ -184,8 +184,8 @@ l_0xc9a0b7:
     "@Friends " next
     "@in valley" linebreak
     "  behind Threed." next
-    "@*Mahdi says* yea we are!"
-    "@Ding! Ding!{wait}{window_closeall}{font_normal}" eob
+    "{font_normal}@*Mahdi says* yea we are!"
+    "{font_saturn}@Ding! Ding!{wait}{window_closeall}{font_normal}" eob
 
 l_0xc9a10c:
     "{sound(111)}{pause(40)}{window_open(1)}{font_saturn}@Oh, Hi ho.{wait}{window_closeall}{font_normal}" eob
@@ -249,7 +249,7 @@ l_0xc9a381:
 l_0xc9a3c5:
     "[06 78 02 {e(data_52.l_0xc9b20e)}]{sound(111)}{pause(40)}{window_open(1)}@Say something funny.{pause(15)}  I'll listen." next
     "@....." next
-    "@*Mahdi says* what do you call a no life who sites all day? {pause(15)}" next
+    "@*Mahdi says* what do you call a no life who sits all day? {pause(15)}" next
     "@  *Mahdi then says*YOU!" next
     "@  Mmm,{pause(15)} Bad Joke!" next
     "  I'm going back to watching the news--it's funnier than you.{wait}{window_closetop}" eob

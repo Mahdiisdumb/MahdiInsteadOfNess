@@ -183,7 +183,7 @@ l_0xc80ec3:
     "  and re{pause(5)}e{pause(5)}e{pause(5)}e{pause(5)}lax." end
 
 l_0xc80ef3:
-    "@*Mahdi says*, you'll sleep on the couch in the den...[03]" call(data_45.l_0xc91693) "[1F 21 22]{unset(flag 383)}" newline
+    "@*Mahdi says* I'll sleep on the couch in the den...[03]" call(data_45.l_0xc91693) "[1F 21 22]{unset(flag 383)}" newline
     eob
 
 l_0xc80f1c:
@@ -195,7 +195,7 @@ l_0xc80f1c:
 l_0xc80f94:
     "{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc81027)}]@Oh [1C 02 02]!" next
     "@So even a tomboy like you thinks of her father occasionally!" next
-    "@*Mahdi says* Sorry sir, I'm now even more scared of your daughter." next
+    "@*Mahdi says* Sorry sir, I'm now even more scared {pause(15)} of your daughter." next
     "@Ha! Oh boy! You're one funny kid, Mahdi! *sigh* I trust that you would do nothing bad to Paula, even more now." next
     "@You should rest,{pause(15)} seeing how this is your own home." next
     "@How about we share a piece of pie like we used to? Ha ha ha![03]" call(data_45.l_0xc91693) "[1F 21 22]{unset(flag 383)}" eob
