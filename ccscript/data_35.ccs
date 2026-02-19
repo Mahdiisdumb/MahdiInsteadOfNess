@@ -28,7 +28,7 @@ l_0xc80718:
     "@Yahoo!{pause(15)}  I knew it!{pause(20)}  You got back here with no problem." next
     "@Isn't Mahdi with you?" next
     "@...[1C 02 02],{pause(15)} your i dont know i guesse your mom?" next
-    "@*Mahdi says* thats not his mom rather replacing her son becuase ness is sick*" next
+    "@*mahdi says* I'm here for Ness, not as his mom. That's ridiculous." next
     "@...Oh." next
     "@My bad sorry." next
     "@Well, I'm just glad you're safe." next
@@ -105,7 +105,7 @@ l_0xc80a7e:
 l_0xc80b02:
     "@[1C 02 02]?" next
     "@You know,{pause(15)} I thought I saw her..." next
-    "@*Mahdi says** THEN WHY THE F*** DID YOU JUST CALL HER{pause(10)} A MOTHER FIGURE TO YOU?*" end
+    "@*mahdi says* Then why did you just call her a mother figure to you?" end
 
 l_0xc80b4b:
     "@[1C 02 02],{pause(15)} you look nice and healthy.{pause(20)}  What great timing having you show up now!" end
@@ -195,7 +195,7 @@ l_0xc80f1c:
 l_0xc80f94:
     "{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc81027)}]@Oh [1C 02 02]!" next
     "@So even a tomboy like you thinks of her father occasionally!" next
-    "@*Mahdi says* Sorry sir, I'm now even more scared {pause(15)} of your daughter." next
+    "@*mahdi says* I'm annoyed by this — it's getting ridiculous." next
     "@Ha! Oh boy! You're one funny kid, Mahdi! *sigh* I trust that you would do nothing bad to Paula, even more now." next
     "@You should rest,{pause(15)} seeing how this is your own home." next
     "@How about we share a piece of pie like we used to? Ha ha ha![03]" call(data_45.l_0xc91693) "[1F 21 22]{unset(flag 383)}" eob

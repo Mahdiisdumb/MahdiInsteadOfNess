@@ -11,6 +11,7 @@ l_0xc5223c:
     "@[1C 05 00]?" linebreak
     "  I'll pay {swap}$[1C 0A 00 00 00 00] for it." next
     "@Is that okay?" linebreak
+    "@*mahdi says* Fine. Let's just get this done." linebreak
     eob
 
 l_0xc52261:
@@ -49,6 +50,7 @@ l_0xc522ca:
 l_0xc522ef:
     "@Hi!  Welcome to my store." next
     "@What do you need?" linebreak
+    "@*mahdi says* Hurry up, I've got better things to do." linebreak
     eob
 
 l_0xc5230c:
@@ -88,6 +90,7 @@ l_0xc523be:
 
 l_0xc523cb:
     "@Hey!  What are you trying to pull?!  You haven't got enough money!!" next
+    "@*mahdi says* Don't try to scam me. That's ridiculous." next
     eob
 
 l_0xc523ef:
@@ -141,6 +144,7 @@ l_0xc524d2:
 l_0xc524f7:
     "@If ye be headin' to Scaraba, ye ought to shop here." next
     "@Things're expensive down there..." next
+    "@*mahdi says* Prices or not, don't leave me holding the bill." next
     "@So, what're ye lookin' fer?" linebreak
     eob
 

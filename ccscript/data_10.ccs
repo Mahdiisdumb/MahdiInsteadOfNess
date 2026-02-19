@@ -30,6 +30,7 @@ l_0xc5bc4c:
 l_0xc5bc70:
     "@I like to sell my goodies on the street." next
     "@Sure, flies land on them, but in my opinion, it makes them taste even better!" next
+    "@*mahdi says* Just keep them clean — I won't tolerate a mess." next
     eob
 
 l_0xc5bcc2:
@@ -190,6 +191,7 @@ l_0xc5c05f:
     "@Hissss, I'm Red Snake... come on in!" next
     "@Kissss of Fire! Armpit hair fertilizer!" linebreak
     "  Yesssssss!" next
+    "@*mahdi says* Ugh, gross. Keep your venom to yourself." next
     eob
 
 l_0xc5c0ad:

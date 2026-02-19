@@ -145,6 +145,7 @@ l_0xc53e23:
     " <[1C 05 3F]>" next
     "@[1C 02 04]'s body equipment." next
     "@It increases his Defense." end
+    "@*mahdi says* Don't go messing with that gear — it's important." end
 
 l_0xc53e4f:
     newline

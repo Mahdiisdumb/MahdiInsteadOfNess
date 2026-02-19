@@ -9,10 +9,12 @@ command e(label) "{long label}"
 // Text Data
 l_0xc52dcc:
     "@Will that be all?" linebreak
+    "@*mahdi says* Yeah, let's wrap this up before something goes wrong." linebreak
     "  Good luck, buddy!" end
 
 l_0xc52de8:
     "@So that's everything?" linebreak
+    "@*mahdi says* Keep an eye out — things get messy fast." linebreak
     "  Keep on the watch for bad guys." end
 
 l_0xc52e0d:
@@ -38,6 +40,7 @@ l_0xc52e59:
 l_0xc52e85:
     "@[1C 02 00] won't be able to equip this." next
     "@Are you intent on purchasing it anyway?" linebreak
+    "@*mahdi says* If you insist, fine. But don't blame me later." linebreak
     eob
 
 l_0xc52eb2:
@@ -85,6 +88,7 @@ l_0xc53018:
 
 l_0xc53037:
     "@Thank you.{pause(20)}  Things must be pretty tough, especially for a kid like you." next
+    "@*mahdi says* Tough or not, don't go getting yourself into trouble." next
     eob
 
 l_0xc53063:

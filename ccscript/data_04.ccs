@@ -90,6 +90,7 @@ l_0xc54ea7:
     "@Because of its explosive power," next
     "@it may effect others besides the target creature. " next
     call(data_05.l_0xc56dab) end
+    "@*mahdi says* Be careful — this stuff blows up way too easily." end
 
 l_0xc54ef7:
     newline

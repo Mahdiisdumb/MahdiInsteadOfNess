@@ -94,6 +94,7 @@ l_0xc5197a:
 l_0xc51b12:
     "@Hello there!" linebreak
     "  How may I help you?" linebreak
+    "@*mahdi says* Come on, spit it out — I'm not here to lollygag." linebreak
     eob
 
 l_0xc51b28:
@@ -145,7 +146,7 @@ l_0xc51bde:
     eob
 
 l_0xc51c03:
-    "@*Mahdi says* time to sell." next
+    "@*mahdi says* Time to sell." next
     "@What do you want to sell?[03]" eob
 
 l_0xc51c0e:
