@@ -174,11 +174,8 @@ l_0xc66b97:
     "@Someone's knocking at the door.{pause(20)}  What an annoying knock!" end
 
 l_0xc66bc0:
-    "@Hey bro...{pause(20)} you're not ness weird" next
-    "@Mahdi is it?" next
-    "@*Mahdi says* yes its me." next
-    "@Great so ness is sick." next
-    "@Anway are youhere for the [1C 05 B8],{pause(15)} aren't you?" linebreak
+    "@Hey bro...{pause(20)} you're not ness weird" next "@Mahdi is it?" next"@*Mahdi says* yes its me." next"@Great so ness is sick." next
+    "@Anway are your here for the [1C 05 B8],{pause(15)} aren't you?" linebreak
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc66c15)} {e(l_0xc66bf6)}]" goto(l_0xc66bf6)
 
 l_0xc66bf6:
