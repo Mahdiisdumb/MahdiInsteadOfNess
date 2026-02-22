@@ -23,7 +23,8 @@ l_0xc52272:
     eob
 
 l_0xc52288:
-    "@I'm sorry, but I can't buy that." next
+    "@I'm sorry, but I can't buy that." linebreak
+    "@*Mahdi says* Ya allah!" next
     eob
 
 l_0xc52299:

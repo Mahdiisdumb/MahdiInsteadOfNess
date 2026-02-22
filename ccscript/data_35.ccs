@@ -28,8 +28,8 @@ l_0xc80718:
     "@Yahoo!{pause(15)}  I knew it!{pause(20)}  You got back here with no problem." next
     "@Isn't Mahdi with you?" next
     "@...[1C 02 02],{pause(15)} your i dont know i guesse your mom?" next
-    "@*mahdi says* I'm here for Ness, not as his mom. That's ridiculous." next
-    "@...Oh." next
+    "@*mahdi says* What i what what what what?????" next
+    "@Whoops got a little bit to carried away" next
     "@My bad sorry." next
     "@Well, I'm just glad you're safe." next
     "@I won't say I'm not worried." next
@@ -45,6 +45,7 @@ l_0xc807ba:
 l_0xc807bc:
     "[06 54 00 {e(l_0xc8087a)}]@[1C 02 02],{pause(15)} if you must go,{pause(15)} be sure to bring this along." next
     "@It's my very own hand-made band-aid!{pause(20)}  I love the way that rhymes!" next
+    "@*Mahdi says* it does kinda rind because hand has and plus band also has and" next
     "[1D 03 FF][1B 02 {e(l_0xc8082a)}][1D 0E 00 BC]" call(data_33.l_0xc7dccf) "{wait}{set(flag 84)}" eob
 
 l_0xc8082a:
@@ -54,12 +55,20 @@ l_0xc8082a:
 
 l_0xc8087a:
     "[19 10 01]{rtoarg}@Well, here you are,{pause(15)} Mahdi." next
-    "@I'll make you some [1C 01 04],{pause(20)} even though I'm not a very good cook.[03]" call(data_44.l_0xc915d6) call(data_44.l_0xc91582) eob goto(l_0xc808bd)
+    "@I'll make you some [1C 01 04],{pause(20)} even though I'm not a very good cook." next
+    "@*Mahdi says* Thanks... I guess.[03]" next
+    call(data_44.l_0xc915d6)
+    call(data_44.l_0xc91582)
+    eob
+    goto(l_0xc808bd)
 
 l_0xc808bd:
     "@You've lost some weight since I saw you last, Mahdi." next
-    "@[1C 02 02] must have had quite an adventure!{pause(20)}  I'm glad you live so close to us." next
-    "@Why don't you drop by more often?{pause(20)}  I'm working at making better [1C 01 04]." end
+    "@*Mahdi says* I'm always this skinny."
+    "@It's my natural build." next
+    "@[1C 02 02] must have had quite an adventure!{pause(20)} I'm glad you live so close to us." next
+    "@Why don't you drop by more often?{pause(20)} I'm working at making your favorite."
+    "@I heard from Ness's mom it's [1C 01 04]." end
 
 l_0xc80939:
     "[06 0C 00 {e(l_0xc8097b)}][06 0D 00 {e(l_0xc8097b)}]@[1C 02 02] isn't here!" next
@@ -69,7 +78,10 @@ l_0xc8097b:
     "{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc80997)}]@(He's smiling)." end
 
 l_0xc80997:
-    "@Oh, [1C 02 02]!{pause(20)}  Uh... sorry,{pause(15)} I thought you were [1C 02 02]." end
+    "@Oh, [1C 02 02]!{pause(20)}  Uh... sorry,{pause(15)} I thought you were [1C 02 02]." next
+"@*Mahdi says* What? Why would I be her?"
+"@*Mahdi Continues* I have a mustache."
+"@*and again* It's subtle." end
 
 l_0xc809ba:
     "[19 10 01]{result_is(2)}[1B 03 {e(l_0xc80a47)}][06 0C 00 {e(l_0xc809fc)}][06 0D 00 {e(l_0xc809fc)}]@Well,{pause(15)} I wanted to play with [1C 02 02],{pause(15)} but she's gone somewhere..." end goto(l_0xc809fc)
@@ -87,7 +99,7 @@ l_0xc80a47:
 l_0xc80a7e:
     "[19 10 01]{result_is(2)}[1B 03 {e(l_0xc80b4b)}]{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc80b02)}]@[1C 02 02] is like a mother to me." next
     "@You may not understand my feelings..." next
-    "@*Mahdi says* Ya Allah, what are you talking about?*" next
+    "@*Mahdi says* Ya Allah, what are you talking about?" next
     "@I might have a baby face,{pause(15)} but I am not letting anyone yammer about me like that!" next
     "@*Mahdi shouts YA CLEB! YA XRARA! YA ANABOK!*" next
     "@I have learned stuff from [1C 02 02], okay?!" next
@@ -145,12 +157,22 @@ l_0xc80cd4:
     "@I also sense you have PSI just like my daughter [1C 02 02]" next
     "@I trust you Ma-dih"
     "@I'm sorry, I couldn't pronounce it right." next
-    "@*Mahdi says* It's pronounced Madi, or in Arabic the way he prefers, Mehdi*" next
+    "@*Mahdi says* It's pronounced Madi, or in Arabic the way he prefers, Mehdi" next
     "@Mahdi! Thanks a lot." next
     "@So you're Mahdi!" next
     "@You're the one that was in" linebreak
     "  [1C 02 02]'s dream." next
     "@You will save the world!" next
+    "@Originally it was Ness."
+    "@But in Paula's dream it said if Ness is ill..."
+    "@...then Mahdi would appear instead."    
+    "*Mahdi says* Yeah, I guess that makes sense." next
+    "*Mahdi continues* I mean, I was in her dream and all, but I didn't know it was gonna be me." next
+    "*Mahdi continues* But a bit creepy because again scared of women my age *shivers*" next
+    "@PFT your funny Mahdi" next
+    "@Anyway, I think you should go see [1C 02 02] now." next
+    "@I know you want to meet her, but I think you should wait a little bit longer." next
+    "@Now ill let you go see her, but only if you promise to be nice to her and not do anything bad to her." next
     "@Let me go call [1C 02 02].[03]" call(data_30.l_0xc7903b) "@She doesn't seem to be here." next
     "@I wonder where she went?{pause(20)} I'm sorry,{pause(20)} could you come back later?{wait}{set(flag 322)}{set(flag 635)}" eob
 
@@ -281,7 +303,7 @@ l_0xc81585:
     "[1D 14 32 00 00 00][1B 03 {e(l_0xc813d4)}]{sound(118)}[1D 09 32 00]{open_wallet}" goto(l_0xc812e6)
 
 l_0xc8159f:
-    "@*Mahdi says Yea what ever*"
+    "@*Mahdi says Yea what ever*" next
     "[06 75 00 {e(l_0xc815f9)}]@Well, you never invested in my genius,{pause(15)} did you?" next
     "@You had no idea of what I could do..." next
     "@*chortle*" next

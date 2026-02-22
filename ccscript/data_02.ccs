@@ -14,8 +14,8 @@ l_0xc52dcc:
 
 l_0xc52de8:
     "@So that's everything?" linebreak
-    "@*mahdi says* Keep an eye out — things get messy fast." linebreak
-    "  Keep on the watch for bad guys." end
+    "@*mahdi says* I'll Keep an eye out — things get messy fast." linebreak
+    "  Alright, Keep on the watch for bad guys." end
 
 l_0xc52e0d:
     "@I've got what you need.[03]" eob
@@ -49,6 +49,7 @@ l_0xc52eb2:
 
 l_0xc52ed7:
     "@Hold it just a second!  You haven't got enough money!" next
+    "@*Mahdi says* I miss counted!"
     eob
 
 l_0xc52ef5:
@@ -79,16 +80,19 @@ l_0xc52fb6:
 l_0xc52ffa:
     "@Forget it!" linebreak
     "  I don't want to buy that junk!" next
+    "@*Mahdi says* What do you mean <junk>? are you DUMB" next
     eob
 
 l_0xc53018:
     "@Excellent." linebreak
     "  Glad we could work something out." next
+    "*Mahdi says* Hah Me too!" next
     eob
 
 l_0xc53037:
     "@Thank you.{pause(20)}  Things must be pretty tough, especially for a kid like you." next
-    "@*mahdi says* Tough or not, don't go getting yourself into trouble." next
+"@*Mahdi says* Tough?{pause(8)} Heh!{pause(8)} Hahaha!{pause(12)}" next
+"@*Mahdi Continues* You’re looking at the scrawniest hero alive!" next
     eob
 
 l_0xc53063:
