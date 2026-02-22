@@ -317,7 +317,7 @@ l_0xc775fd:
 l_0xc77639:
     newline
     "@I'm so stupid!" next
-    "@There's lots of junk in my backpack at a time like this." next
+    "@There's lots of junk in my pockets at a time like this." next
     "@Why don't I get rid of something I don't use.{wait}[1F E1 05 00 3C]" eob
 
 l_0xc77683:

@@ -131,9 +131,12 @@ l_0xc6681d:
 
 l_0xc668e4:
     "@Hey Mahdi,{pause(15)} pal." next
+    "@*Mahdi says* Sup car-painter" next
+    "@Hah funny but" next
     "@There was a man who insisted that he buy the golden statue,{pause(15)} so I sold it to him." next
     "@It's not that I needed the money..." next
     "@It's just that his mania affected me." next
+    "@*Mahdi says* SHIT!" next
     "@As you know,{pause(15)} I'm a sucker for sentiment." next
     "@Bye, for now." end
 
@@ -171,13 +174,19 @@ l_0xc66b97:
     "@Someone's knocking at the door.{pause(20)}  What an annoying knock!" end
 
 l_0xc66bc0:
-    "@Hey bro... you're here for the [1C 05 B8],{pause(15)} aren't you?" linebreak
+    "@Hey bro...{pause(20)} you're not ness weird" next
+    "@Mahdi is it?" next
+    "@*Mahdi says* yes its me." next
+    "@Great so ness is sick." next
+    "@Anway are youhere for the [1C 05 B8],{pause(15)} aren't you?" linebreak
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc66c15)} {e(l_0xc66bf6)}]" goto(l_0xc66bf6)
 
 l_0xc66bf6:
+    "@*Mahdi says* no." next
     "@Oh,{pause(15)} you aren't?{pause(20)}  ...I was ready to give it to you..." end
 
 l_0xc66c15:
+    "@*Mahdi says* Well yea." next
     "[1D 03 FF][1B 02 {e(l_0xc66d2b)}]@Here's the [1C 05 B8].{pause(20)}  What are you going to use it for?" next
     "@Sorry...{pause(15)}  I really shouldn't inquire about a customer's private matters.[03][1D 0E 00 B8]{sound(116)}{pause(60)}{unset(flag 692)}" eob
 

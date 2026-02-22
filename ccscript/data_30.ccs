@@ -385,7 +385,8 @@ l_0xc7970b:
 l_0xc79796:
     "@[1C 02 02],{pause(15)} I'm sure you'd be a big help to Mahdi." next
     "@It's not every day a father lets his daughter embark on a journey to save the world![03]{window_closeall}{set(flag 12)}[19 22 02 02 D9 00][1F 13 02 00][1F 1C 02 01]{pause(60)}[1F 1D 02]{window_open(1)}@Dad,{pause(15)} don't worry about me." next
-    "@*Mahdi says* and I will be able to take care of ourselves." next
+    "@*Mahdi says* we will be able to take care of ourselves." next
+    "@*Mahdi then mutters* if only Paula doesnt try anything haram..." next
     "@In Threed, the next town,{pause(15)} we'll meet another friend." next
     "@If the three of us can combine our power,{pause(15)} no one can beat us." next
     "@Now wipe your eyes,{pause(15)} blow your nose,{pause(15)} and smile before we take off.[03]{window_closeall}{set(flag 611)}[1F 41 05]{pause(10)}" goto(data_31.l_0xc798bf)

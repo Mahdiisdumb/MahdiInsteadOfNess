@@ -86,8 +86,9 @@ l_0xc79d7a:
     "{unset(flag 297)}{set(flag 298)}" eob
 
 l_0xc79d81:
-    "[1F E5 FF][1F 41 05][19 10 01][1F 1C 00 03]{pause(60)}[1F 1D 00][1F E9 ED 01][1F E9 EE 01][1F E9 EF 01][1F E9 F0 01][1F 07 02]{pause(10)}{music(111)}[1F 15 6A 00 8B 02 01][1F 61]{pause(120)}{window_open(1)}@(Oh,{pause(5)} oh...{pause(20)} you're losing consciousness..." next
-    "@What could be the fate of Mahdi and his friend?){wait}{window_closeall}" call(data_44.l_0xc915f4) call(data_22.l_0xc69082) "{set(flag 11)}[1F EB FF 06][1F 15 10 00 96 02 FF][1F 15 89 01 97 02 FF][1F 21 4D][1F E5 FF]{pause(240)}[1F 1F 10 00 06][1F EC 01 01]{pause(30)}[19 22 01 03 89 01][1F 13 01 00]{pause(20)}[1F 1F 89 01 06][1F 15 02 00 08 00 01]{pause(60)}[1F F2 02 00 2F 00][1F 61][1F 1F 02 00 06][1F EC FF 01][1F E8 FF]" eob goto(l_0xc79e55)
+    "[1F E5 FF][1F 41 05][19 10 01][1F 1C 00 03]{pause(60)}[1F 1D 00][1F E9 ED 01][1F E9 EE 01][1F E9 EF 01][1F E9 F0 01][1F 07 02]{pause(10)}{music(111)}[1F 15 6A 00 8B 02 01][1F 61]{pause(120)}{window_open(1)}@(Oh,{pause(5)} oh...{pause(20)} you're losing consciousness...)" next
+    "@What could be the fate of Mahdi and his friend?" next
+    "{wait}{window_closeall}" call(data_44.l_0xc915f4) call(data_22.l_0xc69082) "{set(flag 11)}[1F EB FF 06][1F 15 10 00 96 02 FF][1F 15 89 01 97 02 FF][1F 21 4D][1F E5 FF]{pause(240)}[1F 1F 10 00 06][1F EC 01 01]{pause(30)}[19 22 01 03 89 01][1F 13 01 00]{pause(20)}[1F 1F 89 01 06][1F 15 02 00 08 00 01]{pause(60)}[1F F2 02 00 2F 00][1F 61][1F 1F 02 00 06][1F EC FF 01][1F E8 FF]" eob goto(l_0xc79e55)
 
 l_0xc79e55:
     call(data_22.l_0xc69082) "{pause(60)}[1F 13 02 05]{pause(60)}[1F 07 03][1F 15 6A 00 FE 02 01][1F 61][1F E7 6A 00]{pause(120)}{window_open(1)}@I'm calling out to you who I've never met..." next
@@ -207,8 +208,9 @@ l_0xc7a7dd:
     "@It's coming <Neglected Class.>" next
     "@Hopefully, you'll get it soon.{pause(20)}  Yeah,{pause(15)} everything is..." next
     "@(Kaboooom!)" next
-    "@Uh, I'vegotsomeproblems" linebreak
-    "  heregottago, bye!{wait}{sound(11)}{window_closeall}{music_resume}" eob
+    "Uh, I'vegotsomeproblems" next
+    "Heregottago, bye!{wait}{sound(11)}{window_closeall}{music_resume}" next
+    eob
 
 l_0xc7a959:
     "[19 10 01]{rtoarg}{window_open(1)}@*Crash*" next
@@ -335,6 +337,7 @@ l_0xc7b576:
     "  (Talah Rama just finished fasting)" next
     "@Kyu ukyo uki" linebreak
     "  (and now wants to meet you)" next
+    "@*Mahdi says* Oh Great I can finally salam him." linebreak
     "@Uko uke kauike" linebreak
     "  (at the west end of Dusty Dunes desert)" next
     "@Kekoi kiko ukkeke" linebreak
@@ -426,8 +429,8 @@ l_0xc7beb9:
     ":---------------------[1F 15 6A 00 60 01 01]    {unset(flag 2)}               " call(data_33.l_0xc7dd6b) "{music(32)}" call(data_32.l_0xc7c54b) "{set(flag 2)}               [1F 61]                      {counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc7bf1e)}]{window_open(1)}@The power of Giant Step" call(data_32.l_0xc7c55d) goto(l_0xc7bf1e)
 
 l_0xc7bf1e:
-    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 B6 00 {e(l_0xc7bf94)}]{window_open(1)}@*Mahdi says* caught a glimpse of a small, cute kitten.[03]{pause(60)}" linebreak
-    "@*Mahdi says*'s Sound Stone recorded the melody of the Giant Step.{wait}{set(flag 182)}{set(flag 36)}{set(flag 449)}{set(flag 450)}{set(flag 634)}{window_closetop}" goto(l_0xc7bf94)
+    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 B6 00 {e(l_0xc7bf94)}]{window_open(1)}@*Mahdi says* I caught a glimpse of a small, cute kitten.[03]{pause(60)}" linebreak
+    "@*Mahdi says* Awww now I miss it and my Sound Stone recorded the melody of the Giant Step.{wait}{set(flag 182)}{set(flag 36)}{set(flag 449)}{set(flag 450)}{set(flag 634)}{window_closetop}" goto(l_0xc7bf94)
 
 l_0xc7bf94:
     eob
@@ -436,8 +439,8 @@ l_0xc7bf95:
     "[1F 15 6A 00 60 01 01]    {unset(flag 2)}               " call(data_33.l_0xc7dd6b) "{music(33)}" call(data_32.l_0xc7c54b) "{set(flag 2)}               [1F 61]                      {counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc7bfe8)}]{window_open(1)}@The power of Liliput step" call(data_32.l_0xc7c55d) goto(l_0xc7bfe8)
 
 l_0xc7bfe8:
-    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 B7 00 {e(l_0xc7c058)}]{window_open(1)}@*Mahdi says* briefly had a vision of a keyboard .[03]{pause(60)}" linebreak
-    "@*Mahdi says*'s Sound Stone recorded the melody of the Lilliput Steps.{wait}{set(flag 183)}{window_closetop}" goto(l_0xc7c058)
+    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 B7 00 {e(l_0xc7c058)}]{window_open(1)}@*Mahdi says* I briefly had a vision of a keyboard .[03]{pause(60)}" linebreak
+    "@*Mahdi says* My Sound Stone recorded the melody of the Lilliput Steps.{wait}{set(flag 183)}{window_closetop}" goto(l_0xc7c058)
 
 l_0xc7c058:
     call(data_44.l_0xc915f4) call(data_52.l_0xc9b226) "[06 80 01 {e(l_0xc7c06a)}]" eob
@@ -449,8 +452,8 @@ l_0xc7c06e:
     "[1F 15 6A 00 60 01 01]    {unset(flag 2)}               " call(data_33.l_0xc7dd6b) "{music(34)}" call(data_32.l_0xc7c54b) "{set(flag 2)}               [1F 61]                      {counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc7c0c0)}]{window_open(1)}@The power of Rainy Circle" call(data_32.l_0xc7c55d) goto(l_0xc7c0c0)
 
 l_0xc7c0c0:
-    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 B8 00 {e(l_0xc7c129)}]{window_open(1)}@*Mahdi says* caught a whiff of [1C 01 04], but just for a second.[03]{pause(60)}" linebreak
-    "@*Mahdi says*'s Sound Stone recorded the melody of the Rainy Circle.{wait}{set(flag 184)}{window_closetop}" eob
+    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 B8 00 {e(l_0xc7c129)}]{window_open(1)}@*Mahdi says* I caught a whiff of [1C 01 04], but just for a second.[03]{pause(60)}" linebreak
+    "@*Mahdi says* My Sound Stone recorded the melody of the Rainy Circle.{wait}{set(flag 184)}{window_closetop}" eob
 
 l_0xc7c129:
     eob
@@ -459,9 +462,10 @@ l_0xc7c12a:
     "[1F 15 6A 00 60 01 01]    {unset(flag 2)}               " call(data_33.l_0xc7dd6b) "{music(35)}" call(data_32.l_0xc7c54b) "{set(flag 2)}               [1F 61]                      {counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc7c17b)}]{window_open(1)}@The power of Milkey Well" call(data_32.l_0xc7c55d) goto(l_0xc7c17b)
 
 l_0xc7c17b:
-    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 B9 00 {e(l_0xc7c1f7)}]{window_open(1)}@*Mahdi says* thought he heard his mom Chirine from far away... she said" next
+    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 B9 00 {e(l_0xc7c1f7)}]{window_open(1)}@*Mahdi says* I thought OI heard his mom Chirine from far away... she said" next
     "@<Inta Himar Ya zelema celb>[03]{pause(60)}" linebreak
-    "@*Mahdi says*'s Sound Stone recorded the melody of the Milky Well.{wait}{set(flag 185)}{window_closetop}" goto(l_0xc7c1f7)
+    "@*Mahdi says* My Sound Stone recorded the melody of the Milky Well." next
+    "@*Mahdi continues* That was funny{wait}{set(flag 185)}{window_closetop}" goto(l_0xc7c1f7)
 
 l_0xc7c1f7:
     call(data_52.l_0xc9b226) "[06 80 01 {e(l_0xc7c204)}]" eob
@@ -474,7 +478,7 @@ l_0xc7c208:
 
 l_0xc7c258:
     call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 BA 00 {e(l_0xc7c2c5)}]{window_open(1)}@*Mahdi says* saw a cube, but just for an instant.[03]{pause(60)}" linebreak
-    "@*Mahdi says*'s Sound Stone recorded the melody of Magnet Hill.{wait}{set(flag 186)}{set(flag 494)}{window_closetop}" goto(l_0xc7c2c5)
+    "@*Mahdi says* My Sound Stone recorded the melody of Magnet Hill.{wait}{set(flag 186)}{set(flag 494)}{window_closetop}" goto(l_0xc7c2c5)
 
 l_0xc7c2c5:
     eob
@@ -484,7 +488,7 @@ l_0xc7c2c6:
 
 l_0xc7c317:
     call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 BB 00 {e(l_0xc7c38a)}]{window_open(1)}@*Mahdi says* had a short vision of seeing his mother Chirine when she was young.[03]{pause(60)}" linebreak
-    "@*Mahdi says*'s Sound Stone recorded the melody of the Pink Cloud.{wait}{set(flag 187)}{window_closetop}" goto(l_0xc7c38a)
+    "@*Mahdi says* My Sound Stone recorded the melody of the Pink Cloud.{wait}{set(flag 187)}{window_closetop}" goto(l_0xc7c38a)
 
 l_0xc7c38a:
     call(data_52.l_0xc9b226) "[06 80 01 {e(l_0xc7c397)}]" eob

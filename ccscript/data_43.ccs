@@ -228,19 +228,28 @@ l_0xc8fb05:
 l_0xc8fb1b:
     "{window_closetop}{pause(40)}{window_open(1)}" newline
     "[1F 62 00]@I understand you guys are already claiming to be heroes.{prompt}" linebreak
+    "@*Mahdi says* Heroes?!{prompt}" linebreak
     "@Well, it is a gazillion years too early for you to oppose Giygas!{prompt}" linebreak
+    "@*Mahdi says* Do you really think we are going to stop fighting?!{prompt}" linebreak
+    "@Giygas is so powerful that he can destroy the entire universe with his mind!{prompt}" linebreak
     "@You must feel pretty stupid to keep fighting without even knowing{prompt}" linebreak
+    "@*Mahdi says* What the fuck is up with you?{prompt}" linebreak
     "@what Giygas looks like!{prompt}" linebreak
+    "@*Mahdi says* Fine ill listen to this bullshit{prompt}" linebreak
     "@If you were to ever see Giygas, you'd be so petrified with fear,{prompt}" linebreak
     "@you'd never be able to run away!{prompt}" linebreak
     "@...That's how scary it is!{prompt}" linebreak
     "@So, do you want me to turn off the <Devil's Machine?>{prompt}" linebreak
+    "@*Mahdi says* NO!" linebreak
     "@Well, prepare to be amazed!{sound(74)}{pause(150)}{window_closetop}" eob
 
 l_0xc8fc2e:
     newline
-    "{pause(80)}{window_open(1)}[1F 62 00]@So, isn't this terrifying?{pause(30)}" linebreak
+    "{pause(80)}{window_open(1)}[1F 62 00]"
+    "@*Mahdi says* Your such a dumbass" next
+    "@So, isn't this terrifying?{pause(30)}" linebreak
     "  I'm terrified, too.{prompt}" linebreak
+    "@*Mahdi says* YOU IMBICILE THIS IS NOT YOUR FIGHT!!" next
     "@Giygas cannot think rationally any more,{prompt}" linebreak
     "@and he isn't even aware of what he is doing now.{prompt}" linebreak
     "@His own mind was destroyed by his incredible power.{prompt}" linebreak
@@ -269,8 +278,10 @@ l_0xc8fd11:
     "  help here in the dark?!{prompt}" linebreak
     "@Ha ha ha ha ha!{prompt}" linebreak
     "@Why not call your mommy," linebreak
+    "@*Mahdi says* what the fuck?!" linebreak
     "  [1C 01 08]!{prompt}" linebreak
     "@Say, <Mommy!  Daddy!" linebreak
+    "@*Mahdi says* Alright! i hope you burn in hell now!" next
     "  I'm so frightened!  {pause(30)}I think" linebreak
     "  I'm gonna wet my pants!>{prompt}" linebreak
     "@I know you have telepathy, or something, so just try and call for help,{prompt}" linebreak
@@ -360,11 +371,14 @@ l_0xc900f9:
     call(data_33.l_0xc7dd4b) "[11]{clearline}[09 02 {e(l_0xc9017f)} {e(l_0xc90165)}]" goto(l_0xc90165)
 
 l_0xc90165:
+    "@*Mahdi says* Nu uh..." linebreak
     "@Ohhh..." linebreak
-    "  It's your special mushroom." end
+    "  It's your special mushroom." linebreak
+    "@*Mahdi says* Yes it is." end
 
 l_0xc9017f:
     call(data_45.l_0xc91b6f) newline
+    "@*Mahdi says* Here take it I hate this thing! ITS DEFINITLY HARAM" linebreak
     "@Thank you." linebreak
     "  Such a great mushroom." linebreak
     "  I'm so happy I got it." end
@@ -398,7 +412,8 @@ l_0xc9023d:
 
 l_0xc9026f:
     call(data_44.l_0xc9162c) "{font_saturn}@You aaaaaaall" linebreak
-    "  fixed up." next
+    "{font_normal}@*Mahdi says* Thank YOU!" next
+    "{font_saturn}  fixed up." next
     "@Goody!" linebreak
     "  Boing!{wait}{font_normal}{set(flag 2)}" eob
 
@@ -454,24 +469,31 @@ l_0xc903ed:
     "[1D 15 32 00]{swap}[06 44 00 {e(l_0xc9058d)}][06 7F 01 {e(l_0xc90554)}]@We're all like one big, happy family here in Happy Happy Village!" next
     "@Basically, our policy is to only allow family members to stay here in the village." next
     "@However, if you are interested in learning about Happy Happyism," next
+    "@*Mahdi says* I dont want to be in a cult" linebreak
     "@we may make an exception and let you stay for $[1C 0A 00 00 00 00]." linebreak
     call(data_33.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc904e3)} {e(l_0xc904ba)}]" goto(l_0xc904ba)
 
 l_0xc904ba:
+    "@*Mahdi says* Fuck Off!" linebreak
     "@Never have I heard such disrespect!" linebreak
     "  Get out and stay out!" end
 
 l_0xc904e3:
+    "@*Mahdi says* I hate to say it but this goddamn player is forcing me too!" linebreak
     "[1D 14 00 00 00 00][1B 03 {e(l_0xc9052e)}][1D 09 00 00]{open_wallet}{sound(118)}@Very well... be sure to do your <blue... blue...>" linebreak
-    "  chant before bed time.{wait}" call(data_45.l_0xc91693) "[1F 21 27]" eob
+    "  chant before bed time.{wait}" next
+    "@*Mahdi says* Definitly not!" next
+    call(data_45.l_0xc91693) "[1F 21 27]" eob
 
 l_0xc9052e:
     "@No faith..." linebreak
     "  No money..." linebreak
-    "  You are a hopeless case." end
+    "  You are a hopeless case." linebreak
+    "@*Mahdi says* Hey what the fuck do you mean?!" end
 
 l_0xc90554:
     "@Are you prepared to show the proper respect to Mr. Carpainter now?" next
+    "@*Mahdi says* Nu uh bro" linebreak
     "@Blue... blue...{wait}{unset(flag 383)}" eob
 
 l_0xc9058d:
@@ -482,5 +504,6 @@ l_0xc9058d:
     call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(data_44.l_0xc90615)} {e(l_0xc905fd)}]" goto(l_0xc905fd)
 
 l_0xc905fd:
+    "@*Mahdi says* No thanks" next
     "@Very well.  Please come again, any time." end goto(data_44.l_0xc90615)
 

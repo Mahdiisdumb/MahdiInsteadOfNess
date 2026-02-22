@@ -41,10 +41,16 @@ l_0xc83fe6:
 
 l_0xc84079:
     "@Wheeee!{pause(20)}  Hic!" next
-    "@*Mahdi says*." next
+    "@*Mahdi says* Oh no..." next
     "@Pokey left me, his own dad, and just disappeared." next
+    "@*Mahdi says* I knew that kid is a huge dipshit!" next
+    "@I hope he's doing okay, but I don't want to see him again." next
     "@If you see him, tell him that he should take better care of his father." next
+    "@*Mahdi says* no I'd rather give him a piece of my mind!" next
     "@Don't tell my wife in Onett that I've been spending my time here." next
+    "@*Mahdi says* I don't want her to know that I'm having fun here!" next
+    "@*Mahdi continues* even though Im not drinking just chilling as a muslim kid is pretty fun." next
+    "@Thanks Mahdi for being so understanding." next
     "@Hic!{pause(15)}  Wheeeee!" end
 
 l_0xc84111:
@@ -153,6 +159,7 @@ l_0xc842f9:
 l_0xc8437a:
     "@Good morning!" linebreak
     "  Here's your free copy of the morning newspaper!" next
+    "@*Mahdi says* Nice!" next
     eob
 
 l_0xc843a7:

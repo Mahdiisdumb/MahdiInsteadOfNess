@@ -13,42 +13,52 @@ l_0xc940e3:
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc941cd)} {e(l_0xc94143)}]" goto(l_0xc94143)
 
 l_0xc94143:
+    "@*Mahdi says* no i already eat eggs {pause(20)} like 20 a day." next
     "@You won't get through your teen years without at least one egg." next
     "@Please buy this beautiful egg.{pause(20)}  Please!" linebreak
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc941cd)} {e(l_0xc9419f)}]" goto(l_0xc9419f)
 
 l_0xc9419f:
+    "@*Mahdi says* no as I said already eat eggs {pause(20)} like 20 a day." next
     "@Ok,{pause(15)} but your teen years will be ruined just because you didn't buy an Egg." end
 
 l_0xc941cd:
+    "@*Mahdi says* yes i already eat eggs {pause(20)} like 20 a day." next
     "[1D 0A 5C]{swap}@You're concerned about your health, even though you're young." next
     "@That'll be [1C 0A 00 00 00 00] big ones." next
     "{store_registers}{open_wallet}{open_hp}[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc94231)} {e(l_0xc94143)}]" goto(l_0xc94143)
 
 l_0xc94231:
-    "{load_registers}[1D 14 00 00 00 00][1B 03 {e(l_0xc94270)}][1D 03 FF][1B 02 {e(l_0xc94288)}][1D 0E 00 5C]{load_registers}[1D 09 00 00]{open_wallet}{sound(120)}@Okay,{pause(15)} here you are... one egg to go![03]" eob
+    "{load_registers}[1D 14 00 00 00 00][1B 03 {e(l_0xc94270)}][1D 03 FF][1B 02 {e(l_0xc94288)}][1D 0E 00 5C]{load_registers}[1D 09 00 00]{open_wallet}{sound(120)}@Okay,{pause(15)} here you are... one egg to go!" next
+    "@*Mahdi says* YUMMI! [03]" eob
 
 l_0xc94270:
     newline
-    "@Hey,{pause(15)} I'm not just giving it away..." end
+    "@Hey,{pause(15)} I'm not just giving it away..." next
+    "@*Mahdi says* Fuck you man i want eggs!" end
 
 l_0xc94288:
     newline
     "{sound(5)}@Eggs are easily broken." next
+    "@*Mahdi says* I knew that im not a dumbass." next
     "@There's no way to stuff it in with your other things if you have no more room..." end
 
 l_0xc942c7:
     "[06 0C 00 {e(l_0xc94359)}][06 0D 00 {e(l_0xc94359)}]@The boss of Burglin Park is Everdred." next
     "@He's got ties to burglaries and kidnappings in this area." next
-    "@He's a scary guy." end
+    "@He's a scary guy." next
+    "@*Mahdi says* im a twink and i could beat his shit up!" end
 
 l_0xc9432b:
-    "@Everdred is asking for you.{pause(20)}  He has a present to give you.{pause(20)}  Please..." end
+    "@Everdred is asking for you.{pause(20)}  He has a present to give you.{pause(20)}  Please..." next
+    "@*Mahdi says* Nice!" end
 
 l_0xc94359:
     "{isset(flag 85)}[1B 02 {e(l_0xc9432b)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc943bd)}]@I heard that the kidnapped girl was saved." next
     "@What?{pause(20)}  You saved her?" next
-    "@That's hard to believe.{pause(20)}  You don't seem like the hero-type to me." end
+    "@*Mahdi says* Yes i did" next
+    "@That's hard to believe.{pause(20)}  You don't seem like the hero-type to me." next
+    "@*Mahdi says* Dont underestimate me!" end
 
 l_0xc943bd:
     "@Will you give me 1,000 dollars?" next
@@ -56,10 +66,12 @@ l_0xc943bd:
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9442c)} {e(l_0xc94402)}]" goto(l_0xc94402)
 
 l_0xc94402:
+    "@*Mahdi says* HELL NO!" next
     "@I'm glad you turned me down." next
     "@I just want to be an unknown little punk." end
 
 l_0xc9442c:
+    "@*Mahdi says* Yes i will give you 1000 dollars!" next
     "@You shouldn't give away 1,000 dollars so easily." next
     "@Let me give it back to you." next
     "@Do you think I'm really an honest, reliable person?" end
@@ -80,7 +92,11 @@ l_0xc94503:
 
 l_0xc94509:
     "@Are you looking for that so-called genius, Apple Kid?" next
-    "@As a true genius,{pause(15)} I'll tell you that he's in Burglin Park, looking for you." end
+    "@*Mahdi says* Yes hes my best friend! {pause(20)} *continues* one of my bestest of freinds i have many." next
+    "@As a true genius,{pause(15)} I'll tell you that he's in Burglin Park, looking for you." next
+    "@*Mahdi says* Im comming and also were both geniuses apple kid makes I code." next
+    "@He's a dumbass and your even dumber for beliving hes einstine 2.0!" next
+    "@*Mahdi says* Wow rude..." end
 
 l_0xc9455f:
     eob
@@ -105,14 +121,17 @@ l_0xc9461f:
 
 l_0xc9466c:
     "@Even if Everdred has passed on,{pause(15)} he'll keep watch over us from..." next
-    "@from...wherever he's at." end
+    "@from...wherever he's at." next
+    "@*Mahdi says* no dont worry hes actually a nice guy hes at fourside rightnow at the bar with his friends having a good time." end
 
 l_0xc946b1:
-    "@I'm starting a line here.{pause(20)}  I want a ticket for today's show,{pause(15)} but I may not get it." end
+    "@I'm starting a line here.{pause(20)}  I want a ticket for today's show,{pause(15)} but I may not get it." next
+    "@*Mahdi says* your attempt is fuitle and funny but you will never get a ticket for the runaway five show." end
 
 l_0xc946e6:
     "@I love standing in a queue.{pause(20)}  I also love words that start with <Q.>" next
-    "@Queen,{pause(15)} quiet,{pause(15)} quick..." end
+    "@Queen,{pause(15)} quiet,{pause(15)} quick..." next
+    "@*Mahdi says* your a fucking idiot." end
 
 l_0xc94730:
     "@If I had some connections,{pause(15)} I could waltz right in,{pause(15)} but I'm just a regular joe." end
@@ -131,20 +150,32 @@ l_0xc947e7:
 
 l_0xc9484c:
     "@Thanks for talking to me." next
-    "@Didn't ya go off looking for some girls?" end
+    "@Didn't ya go off looking for some girls?" next
+    "@*Mahdi says* dude thats haram and im scared of women my age!" end
 
 l_0xc94870:
-    "@Hey,{pause(15)} someone was looking for ya." end
+    "@Hey,{pause(15)} someone was looking for ya." next
+    "@*Mahdi says* Intresting?" next
 
 l_0xc94883:
     "[06 0C 00 {e(l_0xc948dc)}][06 0D 00 {e(l_0xc948dc)}]@We may be popular," next
     "@but that girl who lives at the house with the preschool is the talk of the town." next
-    "@I wanna see her someday." end
+    "@I wanna see her someday." next
+    "@*Mahdi says* thats scary especially if shes my age and im a fucking muslim twink!" next
+    "@I heard that she's been kidnapped and is being held in the tunnel." next
+    "@*Mahdi says* thats even scarier!" next
+    "@I think you have to save her." next
+    "@*Mahdi says* fine i guesse its a good deed still scary as HELL!" next
+    "@Whats your problem?{pause(20)}  You look like you could use some help." next
+    "@*Mahdi says* I dont need help im a fucking genius and i can do anything!" end
 
 l_0xc948dc:
     "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc949a2)}]{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc949ce)}][06 29 02 {e(l_0xc94a1c)}]@Hey,{pause(15)} ya came with [1C 02 02]!" next
-    "@Then you deserve a present, playboy." next
+    "@*Mahdi says* i did and im shivering with fear because of it. *shivers*" next
+    "@Damn we heard your a muslim but this is to the next level!" next
+    "Then you deserve a present, Halal Boy." next
     "@Here's a [1C 05 7D].{pause(20)}  You can get into our shows with this!" next
+    "@*Mahdi says* Thats nice of you guys but im still scared of her!" next
     "[1D 03 FF][1B 02 {e(l_0xc94966)}][1D 0E 00 7D]" call(data_33.l_0xc7dccf) "{wait}{set(flag 553)}{set(flag 484)}" eob
 
 l_0xc94966:
@@ -153,7 +184,7 @@ l_0xc94966:
 
 l_0xc949a2:
     "@Hey,{pause(15)} you're [1C 02 02]!" next
-    "@A boy with a red cap seemed to be lookin' for ya." end
+    "@A boy with a blue pj's seemed to be lookin' for ya." end
 
 l_0xc949ce:
     "@I heard you're workin' hard tryin' to find the girl who lives at the preschool." next
@@ -161,7 +192,8 @@ l_0xc949ce:
 
 l_0xc94a1c:
     "@With that [1C 05 7D],{pause(15)} you can even get into our dressing room." next
-    "@Come with your girlfriend...  We'll be waitin'." end
+    "@Come with your girlfriend...  We'll be waitin'." next
+    "@*Mahdi* Why do people assume shes my girlfreind im too scared to even date!" end
 
 l_0xc94a63:
     "[06 77 00 {e(l_0xc94a95)}]@You want to see Poochyfud, the manager?" next

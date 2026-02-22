@@ -77,7 +77,7 @@ l_0xc95f0a:
 
 l_0xc9605d:
     "{pause(60)}" linebreak
-    "{sound(5)}@Your backpack is filled with junk.{pause(20)}  Get rid of something!" next
+    "{sound(5)}@Your pockets is filled with junk.{pause(20)}  Get rid of something!" next
     "@I'll put the money in a safe place until you get back." end
 
 l_0xc960ab:

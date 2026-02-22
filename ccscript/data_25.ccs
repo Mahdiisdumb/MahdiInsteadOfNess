@@ -65,14 +65,19 @@ l_0xc6e57d:
 
 l_0xc6e5a1:
     "@I'm Aloysius Minch, Pokey's dad." next
+    "@*Mahdi says* More like Oily Mincemeat and his son Pokey" next
+    "@hey thats mean!" next
+    "@I cant lie though it was funny" next
     "@Due to my son's success,{pause(15)} I now live the life of a rich man." next
     "@<Every dog has its day...>" next
+    "@I guess that means that every kid has his day, too!  HA! Haha!  hahaha!  hohohoho!" next
     "@That's the perfect proverb to describe me!  HA! Haha!  hahaha!  hohohoho!" next
     "@GWA HA Ha Ha hahahaha!" next
     "@Hee ha haha hehe haha!" next
     "@Ha hahaha... *cough, cough," linebreak
     "  COOOOUGH!*" next
-    "@Oooo... my jaw is tired!" end
+    "@Oooo... my jaw is tired!" next
+    "@*Mahdi says* ok rest it I guesse"end
 
 l_0xc6e69c:
     "[06 0A 00 {e(l_0xc6e759)}][06 8F 00 {e(l_0xc6e79a)}]@Shhh! Quiet!" linebreak
