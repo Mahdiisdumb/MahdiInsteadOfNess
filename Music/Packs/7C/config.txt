@@ -4,10 +4,13 @@ BRR sample dump offset: default
 
 #instruments
 {
-  "sample-1A-1B.brr"            $FF $E0 $B8 $07 $90
-  "sample-1A-1B.brr"            $FF $E0 $B8 $07 $90
-  "sample-1C.brr"               $8F $E0 $B8 $05 $50
-  "sample-1D.brr"               $8F $E0 $B8 $06 $20
-  "sample-1E.brr"               $FF $E0 $B8 $05 $50
-  "sample-1F.brr"               $FF $EC $B8 $16 $20
+  "sample-1A-1B.brr"            $8F $E4 $00 $03 $3E
+  "sample-1A-1B.brr"            $8F $E4 $00 $03 $3E
+  "sample-1C.brr"               $FF $E0 $B8 $03 $10
+  "sample-1D.brr"               $FF $E0 $B8 $05 $50
+  "sample-1E.brr"               $8F $E0 $B8 $05 $50
+  "sample-1F.brr"               $8F $E0 $B8 $06 $20
+  "sample-20.brr"               $FF $E0 $B8 $05 $50
+  "sample-21.brr"               $FF $EC $B8 $16 $20
+  "sample-22.brr"               $FF $E0 $B8 $03 $00
 }

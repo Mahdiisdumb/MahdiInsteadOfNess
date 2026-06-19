@@ -269,8 +269,8 @@ l_0xc9f090:
 
 l_0xc9f0b8:
     newline
-    "{sound(28)}@{user} prayed" linebreak
-    "  from bottom of her heart![03]{pause(60)}" newline
+    "{sound(28)}@{user} told Mahdi to pray" linebreak
+    "  from bottom of his heart![03]{pause(60)}" newline
     "[1F 04 02]@<...Please give us strength,{prompt}" linebreak
     "@if it is possible..." linebreak
     "  Please...>{prompt}" linebreak
@@ -279,56 +279,56 @@ l_0xc9f0b8:
 
 l_0xc9f134:
     newline
-    "{sound(28)}@{user} prayed" linebreak
-    "  from bottom of her heart![03]{pause(60)}" newline
+    "{sound(28)}@{user} told Mahdi to pray" linebreak
+    "  from bottom of his heart![03]{pause(60)}" newline
     "[1F 04 02]@<...Please give us strength!{prompt}" linebreak
     "@Anyone who can hear our plea...." linebreak
     "  Help us...>[1F 04 01]{pause(150)}" eob
 
 l_0xc9f196:
     newline
-    "{sound(28)}@{user} prayed" linebreak
-    "  from bottom of her heart![03]{pause(60)}" newline
+    "{sound(28)}@{user} told Mahdi to pray" linebreak
+    "  from bottom of his heart![03]{pause(60)}" newline
     "[1F 04 02]@<...Please give us strength!{prompt}" linebreak
     "@Speed this prayer" linebreak
     "  to all the people of the earth.>[1F 04 01]{pause(150)}" eob
 
 l_0xc9f1fd:
     newline
-    "{sound(28)}@{user} prayed" linebreak
-    "  from bottom of her heart![03]{pause(60)}" newline
+    "{sound(28)}@{user} told Mahdi to pray" linebreak
+    "  from bottom of his heart![03]{pause(60)}" newline
     "[1F 04 02]@<...Please give us strength!{prompt}" linebreak
     "@Anyone who can hear our plea..." linebreak
     "  Help us...>[1F 04 01]{pause(150)}" eob
 
 l_0xc9f25e:
     newline
-    "{sound(28)}@{user} prayed" linebreak
-    "  from bottom of her heart![03]{pause(60)}" newline
+    "{sound(28)}@{user} told Mahdi to pray" linebreak
+    "  from bottom of his heart![03]{pause(60)}" newline
     "[1F 04 02]@<...Please grant us power!{prompt}" linebreak
     "@Anyone who can hear our plea..." linebreak
     "  Help us...>[1F 04 01]{pause(150)}" eob
 
 l_0xc9f2bc:
     newline
-    "{sound(28)}@{user} prayed" linebreak
-    "  from bottom of her heart![03]{pause(60)}" newline
+    "{sound(28)}@{user} told Mahdi to pray" linebreak
+    "  from bottom of his heart![03]{pause(60)}" newline
     "[1F 04 02]@<...Please grant us strength!{prompt}" linebreak
     "@Anyone who can hear our plea..." linebreak
     "  We ask for this...>[1F 04 01]{pause(150)}" eob
 
 l_0xc9f325:
     newline
-    "{sound(28)}@{user} prayed" linebreak
-    "  from bottom of her heart![03]{pause(60)}" newline
+    "{sound(28)}@{user} told Mahdi to pray" linebreak
+    "  from bottom of his heart![03]{pause(60)}" newline
     "[1F 04 02]@<...Please grant us power!{prompt}" linebreak
     "@Speed this prayer" linebreak
     "  to all the people of the earth...>[1F 04 01]{pause(150)}" eob
 
 l_0xc9f389:
     newline
-    "{sound(28)}@{user} prayed" linebreak
-    "  from bottom of her heart![03]{pause(60)}" newline
+    "{sound(28)}@{user} told Mahdi to pray" linebreak
+    "  from bottom of his heart![03]{pause(60)}" newline
     "[1F 04 02]@<I can't think of" linebreak
     "  anyone else...{prompt}" linebreak
     "@...Someone, anyone..." linebreak
@@ -336,8 +336,8 @@ l_0xc9f389:
 
 l_0xc9f3ec:
     newline
-    "{sound(28)}@{user} prayed" linebreak
-    "  from the bottom of her heart![03]{pause(60)}" newline
+    "{sound(28)}@{user} told Mahdi to pray" linebreak
+    "  from the bottom of his heart![03]{pause(60)}" newline
     "[1F 04 02]@<Someone... can you hear me?!{prompt}" linebreak
     "@Please, give us strength!>[1F 04 01]{pause(150)}" eob
 
@@ -351,20 +351,20 @@ l_0xc9f4a2:
     "{window_open(1)}@(Suddenly," linebreak
     "  one of the Runaway Five felt" linebreak
     "  something stop him,{prompt}" linebreak
-    "@and he prayed fervently for the safety of [1C 01 08] and his friends.){pause(150)}{window_closeall}" eob
+    "@and he told Mahdi to pray fervently for the safety of [1C 01 08] and his friends.){pause(150)}{window_closeall}" eob
 
 l_0xc9f4f6:
     "{window_open(1)}@([1C 01 1E]'s father" linebreak
     "  thought he somehow heard" linebreak
     "  his daughter's voice,{prompt}" linebreak
-    "@and prayed sincerely for the" linebreak
+    "@and told Mahdi to pray sincerely for the" linebreak
     "  safety of [1C 01 1E] and" linebreak
     "  her friends.){pause(150)}{window_closeall}" eob
 
 l_0xc9f557:
     "{window_open(1)}@(Suddenly," linebreak
     "  Tony felt anxious about [1C 01 34],{prompt}" linebreak
-    "@and he prayed strongly for the safety of [1C 01 34] and his friends.){pause(150)}{window_closeall}" eob
+    "@and he told Mahdi to pray strongly for the safety of [1C 01 34] and his friends.){pause(150)}{window_closeall}" eob
 
 l_0xc9f5a8:
     "{window_open(1)}@(A young woman in Dalaam woke from a dream in which Prince [1C 01 4A] died,{prompt}" linebreak
@@ -404,7 +404,7 @@ l_0xc9f780:
     "{inc}" goto(l_0xc9f75f)
 
 l_0xc9f786:
-    "{pause(30)} prayed for the kids, having never even met them before.{pause(150)}{window_closeall}" eob
+    "{pause(30)} told Mahdi to pray for the kids, having never even met them before.{pause(150)}{window_closeall}" eob
 
 l_0xc9f7af:
     "#" goto(l_0xc9f750)

@@ -368,7 +368,7 @@ l_0xc65b93:
     "@you lucky boy." end
 
 l_0xc65c01:
-    "@If one of your friends becomes unconscious," next
+    "@If one of your friends die," next
     "@you should visit them at the hospital." next
     "@You should check with the nurse receptionist, and she will release your friend." next
     "@It's a nice thing to remember,{pause(15)} but it's all right if you forget." end

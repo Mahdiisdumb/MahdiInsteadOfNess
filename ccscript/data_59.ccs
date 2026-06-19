@@ -189,8 +189,8 @@ l_0xef89ce:
 
 l_0xef89e0:
     newline
-    "{sound(28)}@{user} prayed" linebreak
-    "  with her whole heart![03]" eob
+    "{sound(28)}@{user} Told Mahdi to Pray" linebreak
+    "  with his whole heart![03]" eob
 
 l_0xef89fe:
     newline

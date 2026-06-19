@@ -221,31 +221,39 @@ l_0xc66e40:
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc66eca)} {e(l_0xc66e9f)}]" goto(l_0xc66e9f)
 
 l_0xc66e9f:
-    "@Oh,{pause(15)} Mahdi.{pause(20)}  You don't understand the importance of a good night's sleep!" end
+    "@*Mahdi says* nah id rather sleep on the floor" prompt
+    "@Oh,{pause(15)} Mahdi.{pause(20)}  YOUR ASS IS GONNA DIE IF YOU FUCKING SLEEP ON THE FLOOR!" end
 
 l_0xc66eca:
+    "@*Mahdi says* I guess." prompt
     "{window_closeall}[1F 07 03]{set(flag 295)}{set(flag 469)}{set(flag 530)}{unset(flag 474)}{set(flag 473)}{set(flag 468)}{set(flag 749)}{unset(flag 11)}{unset(flag 517)}[1F 15 6A 00 79 02 01][1F 61]{pause(120)}[1F EB FF 06][1F 15 6A 00 FD 02 01][1F 61][1F 21 51]{pause(180)}[1F 15 B5 01 0B 03 FF][1F 21 C4][1F E5 FF]{pause(1)}[1F 1F B5 01 06][1F EC FF 01]" eob
 
 l_0xc66f20:
-    "@Don't you know what time it is?!{pause(20)}  Get yer butt home,{pause(15)} pronto!" end
+    "@Don't you know what time it is?!{pause(20)}  Get yer butt home,{pause(15)} pronto!" prompt
+    "@*Mahdi says* LET ME FUCK AROUND! YOU MONKEY!" end
 
 l_0xc66f4a:
     "@I want to return home,{pause(15)} but the road is closed." next
+    "@*Mahdi says* oh{pause(15)} okay" prompt
     "@People are taking this meteorite situation too seriously!" end
 
 l_0xc66f90:
     "@Don't panic!{pause(20)}  It's just a...{pause(20)} what?!... meteorite that...{pause(20)} who?!... fell." next
-    "@I just wanna...{pause(15)} what?!{pause(20)} ...go home..." end
+    "@I just wanna...{pause(15)} what?!{pause(20)} ...go home..." next
+    "@*Mahdi says* I think your  high on crack." end
 
 l_0xc66fe2:
     "@Onett police are infamous for closing roads if something is going on." next
-    "@We are going for the world record..." end
+    "@We are going for the world record..." next
+    "@*Mahdi says* Thats inconvienient." end
 
 l_0xc67026:
     "@Did you hear the big bang?{pause(20)}" linebreak
+    "@*Mahdi says* uhhh i think everybody did" prompt
     "  I think a meteorite landed nearby." next
     "@I want to be the first to see it.{pause(15)}  Okay?" next
-    "@I am going to try to be the first to get there..." end
+    "@*Mahdi says* THATS FUCKING SELFISH OF YOU!" prompt
+    "@I'm{pause(100)} sorry." end
 
 l_0xc67089:
     "@A meteorite has landed,{pause(15)} the Sharks are running wild in town," next
@@ -271,7 +279,11 @@ l_0xc671ad:
     "  Clear out. Get out of my way." next
     "@Clear out. Of way out get my" next
     "@Whoops,{pause(15)} my mistake...{pause(20)}" linebreak
-    "  I mean <get out of my way!>" end
+    "  I mean <get out of my way!>" next
+    "@*Mahdi says* I think you need to go umm{pause(100)} english learning class." prompt
+    "@HEY KID FUCK YOU!" next
+    "@*Mahdi says* Go fuck yourself!" prompt
+    end
 
 l_0xc67229:
     "@Shh.{pause(15)}  Shh!" end
@@ -282,10 +294,12 @@ l_0xc67237:
     "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc672cc)} {e(l_0xc6729b)}]" goto(l_0xc6729b)
 
 l_0xc6729b:
+    "@*Mahdi says* no hes a fucking nusance" prompt
     "@C'mon dude{pause(15)} Hes annoying Mee!" next
     "@Please,{pause(15)} help me out here!" end
 
 l_0xc672cc:
+    "@*Mahdi says* uhh i guess" prompt
     "@Thank you!" end
 
 l_0xc672eb:
@@ -298,12 +312,15 @@ l_0xc67349:
     "@Wait your name is Mahdi right?" next
     "@Don't be rubberneckin'.{pause(20)}  You're gettin' in the cops,{pause(15)} oops..." next
     "@I mean officer's way!" next
+    "@*Mahdi says* Man, go fuck yourself!" prompt
     "{set(flag 472)}{set(flag 474)}" goto(l_0xc6739f)
 
 l_0xc6739f:
-    "@You can go home now." next
+    "@HEY GO FUCK YOUR SELF INSTEAD!" next
+    "@get your bitch ass home now!" next
     "@Tomorrow{pause(5)} I,{pause(15)} Pokey,{pause(15)} will tell you more about the strange meteorite." next
-    "@I'm fine here,{pause(15)} but you're bugging the officers!" end
+    "@I'm fine here,{pause(15)} but you're bugging the officers!" next
+    "@*Mahdi says* ironic because the officers fucking said they hate you!" end
 
 l_0xc673f9:
     "[06 D8 01 {e(l_0xc674aa)}][06 02 00 {e(l_0xc67412)}]@Oh,{pause(15)} hi." next

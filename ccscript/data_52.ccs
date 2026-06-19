@@ -274,13 +274,14 @@ l_0xc9b799:
     "[1F 21 9E][1F E5 FF]{pause(60)}" call(data_29.l_0xc77dab) "{pause(60)}[1F F1 FD 04 5B 01]{pause(30)}[1F 1A FE 04 03][1F 1A FF 04 03][1F 1A 00 05 03]{pause(90)}[1F 1E FD 04 06]         [1F EC 01 01]                {pause(30)}[1F 1B FE 04][1F 1B FF 04][1F 1B 00 05]{pause(90)}[1F F1 FE 04 5C 01]" call(l_0xc9b84f) "[1F F1 FF 04 5D 01]" call(l_0xc9b87f) "[1F F1 00 05 5E 01]" call(l_0xc9b898) "[1F 11 02][1F EB 02 06][1F F1 FE 04 2F 00][1F 61][1F 1E FE 04 06][1F EC 02 01][1F 11 03][1F EB 03 06][1F F1 FF 04 2F 00][1F 61][1F 1E FF 04 06][1F EC 03 01][1F 11 04][1F EB 04 06][1F F1 00 05 2F 00][1F 61][1F 1E 00 05 06][1F EC 04 01]" call(l_0xc9b60f) eob
 
 l_0xc9b84f:
-    "[1F 61]{window_open(1)}@What happened, Mahdi?{pause(20)}  You've been unconscious for a long time...[03]{window_closeall}{pause(30)}" eob
+    "[1F 61]{window_open(1)}@What happened, Mahdi?{pause(20)}  You've been sleeping for a long time...[03]{window_closeall}{pause(30)}" eob
 
 l_0xc9b87f:
     "[1F 61]{window_open(1)}@You kept saying something...[03]{window_closeall}{pause(30)}" eob
 
 l_0xc9b898:
     "[1F 61]{window_open(1)}@...Saturn Valley?{pause(30)}" linebreak
+    "@*Mahdi says* yea we need to go there!" next
     "  What's waiting for us there?" next
     "@Anyway, we need to teleport...[03]{window_closeall}{pause(30)}" eob
 

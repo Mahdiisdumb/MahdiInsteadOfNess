@@ -396,11 +396,11 @@ l_0xef6c55:
 
 l_0xef6c6b:
     newline
-    "@{target} got hurt and collapsed...{sound(32)}[03]" eob
+    "@{target} got killed and collapsed...{sound(32)}[03]" eob
 
 l_0xef6c84:
     newline
-    "@{target} got hurt" linebreak
+    "@{target} got killed" linebreak
     "  and collapsed...{sound(32)}{unset(flag 587)}" next
     "[06 CF 00 {e(l_0xef6ce2)}][06 CE 00 {e(l_0xef6cd9)}][06 CD 00 {e(l_0xef6cd0)}][06 CC 00 {e(l_0xef6cc7)}]{set(flag 204)}" call(l_0xef6ceb) eob
 
@@ -445,29 +445,29 @@ l_0xef6d4c:
 
 l_0xef6d71:
     newline
-    "@{target} was defeated!{sound(33)}" eob
+    "@{target} was killed!{sound(33)}" eob
 
 l_0xef6d83:
     newline
-    "@{target} stopped moving!{sound(33)}" eob
+    "@{target} was killed!{sound(33)}" eob
 
 l_0xef6d96:
     newline
-    "@{target} became tame!{sound(33)}" eob
+    "@{target} was killed!{sound(33)}" eob
 
 l_0xef6da7:
     newline
-    "@{target} disappeared!{sound(33)}" eob
+    "@{target} was killed!{sound(33)}" eob
 
 l_0xef6db8:
     newline
-    "@The figure of {target} melted into thin air!{sound(33)}" eob
+    "@{target} was killed!{sound(33)}" eob
 
 l_0xef6dd8:
     newline
-    "@{target} was broken into pieces!{sound(33)}" eob
+    "@{target} was killed!{sound(33)}" eob
 
 l_0xef6df0:
     newline
-    "@{target} was destroyed!{sound(33)}" eob
+    "@{target} was killed!{sound(33)}" eob
 

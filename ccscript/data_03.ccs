@@ -517,7 +517,7 @@ l_0xc54979:
 l_0xc549c3:
     newline
     " <[1C 05 81]>" next
-    "@May revive a friend who is unconscious." next
+    "@May revive a friend who is Dead." next
     call(data_05.l_0xc56cdb) call(data_05.l_0xc56d02) next
     call(data_05.l_0xc56d36) call(data_05.l_0xc56d38) end
 
@@ -527,7 +527,7 @@ l_0xc549ff:
     goto(l_0xc54a08)
 
 l_0xc54a08:
-    "@Revives a friend who is unconscious." next
+    "@Revives a friend who is Dead." next
     call(data_05.l_0xc56cdb) call(data_05.l_0xc56d02) next
     call(data_05.l_0xc56d37) call(data_05.l_0xc56d38) end
 

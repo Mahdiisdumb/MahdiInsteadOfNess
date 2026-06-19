@@ -302,11 +302,12 @@ l_0xc91259:
 
 l_0xc9128d:
     "{ctoarg}" call(l_0xc9155b) "[1B 02 {e(l_0xc9142c)}]@Who do you want to see?{open_hp}[1A 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01]" linebreak
-    "[1B 02 {e(l_0xc913dd)}]{store_registers}[1D 0D 00 01 02][1B 02 {e(l_0xc913a4)}]{load_registers}{swap}@[1C 02 00] was just brought in, and is still unconscious." next
+    "[1B 02 {e(l_0xc913dd)}]{store_registers}[1D 0D 00 01 02][1B 02 {e(l_0xc913a4)}]{load_registers}{swap}@[1C 02 00] was just brought in, and is still lifless." next
     "{swap}@Please pay $[1C 0A 00 00 00 00] for the doctor's fee." linebreak
     "[19 02]Yes[02][19 02]No[02]{open_wallet}[1C 07 02]" call(data_33.l_0xc7dd5e) "[09 02 {e(l_0xc91345)} {e(l_0xc9132e)}]" goto(l_0xc9132e)
 
 l_0xc9132e:
+    "@*Mahdi says* THAT IS TOO EXPENSIVE YA KALB!" prompt
     "@Your friend, right?...  It's very serious." end
 
 l_0xc91345:
@@ -336,11 +337,11 @@ l_0xc9146d:
     "@Yeah, well, I am actually pretty busy." end
 
 l_0xc91486:
-    "@If a good friend of yours becomes unconscious," next
+    "@If a good friend of yours die," next
     "@come to the hospital right away." next
     "@As long as you have money for the doctor's fee," next
     "@you'll be able to see your friend completely recovered in no time." next
-    "@Besides being unconscious, whenever" next
+    "@Besides being dead, whenever" next
     "@you don't feel so well, come and talk to a doctor." next
     "@Everything I just told you applies to hospitals all over the world." end
 

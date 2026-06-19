@@ -193,7 +193,7 @@ l_0xc51c95:
 
 l_0xc51ca3:
     "@It looks like [1C 02 00] can't carry any more stuff." next
-    "@*Mahdi says* We are Himars sorry about that." next
+    "@*Mahdi says* We're Himars sorry about that." next
     "@Would someone else like to carry it?" linebreak
     eob
 

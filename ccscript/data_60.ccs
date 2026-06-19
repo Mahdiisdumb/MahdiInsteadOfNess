@@ -159,11 +159,13 @@ l_0xef95a3:
     "@At least You came{pause(15)} Wait OH you're the one people told me about!" next
     "@The one people say Ness was swapping for" next
     "@Mad-hi? Right?" next
-    "@*Mahdi says* It's actually Mahdi. *shivers*" next
+    "@*Mahdi says* It's actually Mahdi. *shivers*" prompt
     "@Mahdi! Thanks, and why are you shivering?" next
-    "@*Mahdi says* I'm scared of girls my age." next
+    "@*Mahdi says* I'm scared of girls{pause(15)} that may touch me thats also my age." prompt
     "@PFFFT HAHAHHAHAHAHAHA!" next
     "@Oh Mahdi your so funny!" next
+    "@Dont worry you bum!{pause(1000)} I wont even touch you, you probably have the hantavirus or somthing" next
+    "@*Mahdi says* ...{pause(1000)} I guess bro."
     "@*Sigh* anyway." next
     "@If you didn't come,{pause(15)} I would have had to try to bust out of here." next
     "@You can't open the door." next
@@ -176,20 +178,25 @@ l_0xef95a3:
 
 l_0xef96d3:
     "{sound(5)}@What--{pause(15)}do you want to get fried by lightning?" next
+    "@*Mahdi says* I don't want to get fried LIKE A FISH!" prompt
     "@Get rid of something so I can give you the [1C 05 01].{wait}" linebreak
     "{set(flag 10)}" eob
 
 l_0xef970f:
     "@If you didn't come,{pause(15)} I would have had to try to bust out of here." next
+    "@*Mahdi says* I know your ass cannot break this steel...{pause(1000)} unless if your me and have a GI{pause(10)}GANTIC ASS that one time destroyed a glasss table and a fucking{pause(50)} WALL!" prompt
+    "@HAHHAHAHAHAHAHHA!{pause(50)} again your so funny!" next
+    "@*Mahdi says* ...{pause(1000)} I guess again bro."
     eob
 
 l_0xef9737:
-    "@*Mahdi says*!  You got the key!" next
-    "@Are you hurt?" linebreak
-    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xef976b)} {e(l_0xef976b)}]" goto(l_0xef976b)
+    "@*Mahdi says* YES I  got the key!" next
+    "@Are you hurt?" linebreak prompt
+    goto(l_0xef976b)
 
 l_0xef976b:
-    "@I'm sorry for all the trouble I've caused you." end
+    "@*Mahdi says* OF FUCKING COURSE MY ASS GOT FRIED!" prompt
+    "@I'm sorry for all the trouble I've caused you.{pause(1000)} nice joke there" end
 
 l_0xef9785:
     "@(Cross bridge to Happy-Happy Village)" end

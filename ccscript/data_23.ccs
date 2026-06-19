@@ -58,17 +58,21 @@ l_0xc6a950:
     "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc6a9c8)} {e(l_0xc6a9a9)}]" goto(l_0xc6a9a9)
 
 l_0xc6a9a9:
+    "@*Mahdi says* well of course i dont im 13" prompt
     "@Yes, yes... you seem  a little young for that..." end
 
 l_0xc6a9c8:
+    "@*Mahdi says* well of course i dont im 13" prompt
     "@Oh?" next
     "@At your age?" next
     "@Oh... the youth of today shock me..." next
-    "@My lands..." end
+    "@My lands..." prompt
+    "@*Mahdi says* You old geezer I said no are you dumb?" end
 
 l_0xc6a9f9:
     "@Ah, [1C 02 03],{pause(15)} I just dreamt that you and I were taking a walk." next
-    "@...What's wrong?" end
+    "@...What's wrong?" next
+    "@*Mahdi says* Whats wrong?{pause(1000)} thats creepy as hell!" end
 
 l_0xc6aa2f:
     "[06 58 00 {e(l_0xc6ad29)}][06 5D 02 {e(l_0xc6abd5)}][06 5C 02 {e(l_0xc6ad29)}]@Oh,{pause(15)} [1C 02 03] and Tony.{pause(20)}  You startled me." next
@@ -79,12 +83,16 @@ l_0xc6aa2f:
     "@I heard he's an astounding person." next
     "@He was the first leader of our Ultra Science Club..." next
     "@I heard he's greater than Einstein or Heisenberg." next
+    "@*Mahdi says* Theres no fucking way hes better than Heisenberg!" prompt
+    "@HEY!{pause(50)} thats mean" next
+    "@Anyway." next
     "@Rumor has it he's also very strange." next
     "@If you're heading to the locker room, take this key along." next
     "@It's a little bent though.[03][1D 03 FF][1B 02 {e(l_0xc6acda)}][1D 0E 00 CD]" call(data_33.l_0xc7dcb6) next
     "{set(flag 604)}@If you leave,{pause(15)} call me, and I'll record your adventure." next
     "@It's like saving the game.{pause(15)}" linebreak
-    "  Ah, ha, ha, ha, ha.{wait}{window_closeall}" eob
+    "  Ah, ha, ha, ha, ha.{wait}{window_closeall}" next
+    "@*Mahdi says* Maybe its because this is a game!" eob
 
 l_0xc6abd5:
     "[1D 01 FF CD]@Hah, ha, ha.  The key didn't work, did it?" next

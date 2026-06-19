@@ -75,7 +75,7 @@ l_0xef7a28:
 
 l_0xef7a4d:
     newline
-    "{pause(10)}{music(7)}@" call(data_33.l_0xc7e6d7) " lost the battle...{prompt}" eob
+    "{pause(10)}{music(7)}@" call(data_33.l_0xc7e6d7) " everyone has died...{prompt}" eob
 
 l_0xef7a66:
     newline

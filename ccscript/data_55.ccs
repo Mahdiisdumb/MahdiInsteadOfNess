@@ -684,10 +684,10 @@ l_0xef51f0:
 
 l_0xef5239:
     "@In addition to the effects of Healing [8C], this cures being diamondized and paralysis." linebreak
-    "@It also revives a friend who has become unconscious, though HP is not maxed out." eob
+    "@It also revives a friend who has died, though HP is not maxed out." eob
 
 l_0xef52a5:
-    "@In addition to the effects of Healing [8D], this revives a friend who has become unconscious, and it completely maxes out that person's HP when revived." eob
+    "@In addition to the effects of Healing [8D], this revives a friend who has died, and it completely maxes out that person's HP when revived." eob
 
 l_0xef5301:
     "@Protect one person with the shield of light." linebreak
