@@ -1,10 +1,10 @@
 0:
   Event Flag: 0xc7
-  Name: Dad
+  Name: Ness Dad
   Text Pointer: data_17.l_0xc63229
 1:
   Event Flag: 0xc8
-  Name: Mom
+  Name: Ness Mom
   Text Pointer: data_32.l_0xc7cb5f
 2:
   Event Flag: 0xc9
